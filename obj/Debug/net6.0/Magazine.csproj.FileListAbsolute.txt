@@ -1,0 +1,6 @@
+C:\Users\Александр\source\repos\Magazine\obj\Debug\net6.0\Magazine.csproj.AssemblyReference.cache
+C:\Users\Александр\source\repos\Magazine\obj\Debug\net6.0\Magazine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\source\repos\Magazine\obj\Debug\net6.0\Magazine.AssemblyInfoInputs.cache
+C:\Users\Александр\source\repos\Magazine\obj\Debug\net6.0\Magazine.AssemblyInfo.cs
+C:\Users\Александр\source\repos\Magazine\obj\Debug\net6.0\Magazine.csproj.CoreCompileInputs.cache
+C:\Users\Александр\source\repos\Magazine\obj\Debug\net6.0\Magazine.MvcApplicationPartsAssemblyInfo.cache
