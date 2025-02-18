@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Александр\\source\\repos\\Magazine.Domain\\Magazine.Domain.csproj": {}
+    "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Александр\\source\\repos\\Magazine.Domain\\Magazine.Domain.csproj": {
+    "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\Magazine.Domain\\Magazine.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj",
         "projectName": "Magazine.Domain",
-        "projectPath": "C:\\Users\\Александр\\source\\repos\\Magazine.Domain\\Magazine.Domain.csproj",
+        "projectPath": "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\source\\repos\\Magazine.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",

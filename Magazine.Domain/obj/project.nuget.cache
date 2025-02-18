@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qaX5ZhSiRqB2e8MskYFtV4u73EYS56BMX/4PfZ3Ktu4FSaXQJIraz2IzfiQCJNdZsp1gfoE1fltD2sCiqjVHkQ==",
+  "dgSpecHash": "AneQk4dwBR2aqlLsxG6uu8qggQXHNVQGWeuFuT0rUfAueLhPLbfyX8bjGT5W11WhIrhOu0W4zJAZsS9ZwcRltw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Александр\\source\\repos\\Magazine.Domain\\Magazine.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
