@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magazine.WebApi", "..\WebApi\Magazine.WebApi.csproj", "{D719786C-18B9-46CA-B356-D1CC4F450284}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magazine.WebApi", "..\WebApi\Magazine.WebApi.csproj", "{D719786C-18B9-46CA-B356-D1CC4F450284}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magazine.Presentation", "Magazine.Presentation", "{A8E03C4D-B044-4292-9F64-58195B7F2E8C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Magazine.Core", "Magazine.Core", "{EC77B2D1-991B-490F-AFA4-2284AA888DE2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magazine.Domain", "Magazine.Domain\Magazine.Domain.csproj", "{024D8F08-211C-42CE-8A85-308684585C68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastacture", "Infrastacture", "{88CB8B79-AD79-4AC8-BBC4-7220CE405B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magazine.Persistance", "Magazine.Persistance\Magazine.Persistance.csproj", "{A28DB57C-E4E1-4002-BF80-5FB4534C004D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{024D8F08-211C-42CE-8A85-308684585C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{024D8F08-211C-42CE-8A85-308684585C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{024D8F08-211C-42CE-8A85-308684585C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28DB57C-E4E1-4002-BF80-5FB4534C004D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28DB57C-E4E1-4002-BF80-5FB4534C004D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28DB57C-E4E1-4002-BF80-5FB4534C004D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28DB57C-E4E1-4002-BF80-5FB4534C004D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D719786C-18B9-46CA-B356-D1CC4F450284} = {A8E03C4D-B044-4292-9F64-58195B7F2E8C}
 		{024D8F08-211C-42CE-8A85-308684585C68} = {EC77B2D1-991B-490F-AFA4-2284AA888DE2}
+		{A28DB57C-E4E1-4002-BF80-5FB4534C004D} = {88CB8B79-AD79-4AC8-BBC4-7220CE405B67}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F964DB5-7DEE-49AC-815F-B69407424DA3}

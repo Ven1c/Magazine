@@ -1,0 +1,12 @@
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\bin\Debug\net6.0\Magazine.Domain.deps.json
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\bin\Debug\net6.0\Magazine.Domain.dll
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\bin\Debug\net6.0\Magazine.Domain.pdb
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\obj\Debug\net6.0\Magazine.Domain.csproj.AssemblyReference.cache
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\obj\Debug\net6.0\Magazine.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\obj\Debug\net6.0\Magazine.Domain.AssemblyInfoInputs.cache
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\obj\Debug\net6.0\Magazine.Domain.AssemblyInfo.cs
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\obj\Debug\net6.0\Magazine.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\obj\Debug\net6.0\Magazine.Domain.dll
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\obj\Debug\net6.0\refint\Magazine.Domain.dll
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\obj\Debug\net6.0\Magazine.Domain.pdb
+C:\Users\Александр\Source\Repos\Magazine\Magazine.Domain\obj\Debug\net6.0\ref\Magazine.Domain.dll
