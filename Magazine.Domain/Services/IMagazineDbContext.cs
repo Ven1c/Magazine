@@ -11,5 +11,6 @@ namespace Magazine.Domain.Services
     public interface IMagazineDbContext
     {
         DbSet<Product> Product_ { get; set; }
+        int SaveChanges();
     }
 }

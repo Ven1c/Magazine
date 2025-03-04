@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj": {}
+    "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Александр\\Source\\Repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj": {
+    "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Александр\\Source\\Repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj",
         "projectName": "Magazine.Domain",
-        "projectPath": "C:\\Users\\Александр\\Source\\Repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj",
+        "projectPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\Source\\Repos\\Magazine\\Magazine.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,18 +67,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj": {
+    "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
         "projectName": "Magazine.Persistance",
-        "projectPath": "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
+        "projectPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Persistance\\obj\\",
+        "outputPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,17 +89,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj": {
-                "projectPath": "C:\\Users\\Александр\\source\\repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj"
-              },
-              "C:\\Users\\Александр\\source\\repos\\WebApi\\Magazine.WebApi.csproj": {
-                "projectPath": "C:\\Users\\Александр\\source\\repos\\WebApi\\Magazine.WebApi.csproj"
+              "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj": {
+                "projectPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj"
               }
             }
           }
@@ -102,6 +106,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -129,76 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Александр\\Source\\Repos\\WebApi\\Magazine.WebApi.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Александр\\Source\\Repos\\WebApi\\Magazine.WebApi.csproj",
-        "projectName": "Magazine.WebApi",
-        "projectPath": "C:\\Users\\Александр\\Source\\Repos\\WebApi\\Magazine.WebApi.csproj",
-        "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\Source\\Repos\\WebApi\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Александр\\Source\\Repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj": {
-                "projectPath": "C:\\Users\\Александр\\Source\\Repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

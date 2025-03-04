@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Magazine.Domain;
 using Magazine.Domain.Services;
 using Magazine.Domain.Commands;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 
 namespace Magazine.Persistance
@@ -25,6 +27,7 @@ namespace Magazine.Persistance
                 ImageSrc = addCommand.ImageSrc
             };
            _MagazineDbContext.Product_.Add(prod);
+            _MagazineDbContext.SaveChanges();
             return prod;
         }
        public Product Remove(Product remuvble)

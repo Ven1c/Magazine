@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9vmtZGD+rbDFKR8T1eGMLt6WE1NuI4/Pz5sAOvkClxzS7a/RmyoA1s+nyb+TJrA5YxzFftJuWAfn6xq0RofNwQ==",
+  "dgSpecHash": "haDgzj9Ihz0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Александр\\Source\\Repos\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Александр\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Александр\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

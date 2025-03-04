@@ -1,3 +1,8 @@
+using Magazine.Domain.Services;
+using Magazine.Persistance;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,7 +13,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
+void ConfigureServices(IServiceCollection services)
+{
+    services.AddPersistence(builder.Configuration);
+}
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
