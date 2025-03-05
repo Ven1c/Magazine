@@ -13,6 +13,6 @@ namespace Magazine.Domain.Services
         public Product Add(AddCommand addCommand);
         public Product Remove(Product remuvble);
         public Product Edit(Product product);
-        public Product Search(Product searchble);
+        public Product Search(string name);
     }
 }

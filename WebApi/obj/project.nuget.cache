@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mQLDJinLgOo=",
+  "dgSpecHash": "mVv7VLgvc+g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Александр\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Александр\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

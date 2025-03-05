@@ -1,0 +1,16 @@
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\bin\Debug\net6.0\Magazine.Persistance.deps.json
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\bin\Debug\net6.0\Magazine.Persistance.dll
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\bin\Debug\net6.0\Magazine.Persistance.pdb
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\bin\Debug\net6.0\Magazine.Domain.dll
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\bin\Debug\net6.0\Magazine.Domain.pdb
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\Magazine.Persistance.csproj.AssemblyReference.cache
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\Magazine.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\Magazine.Persistance.AssemblyInfoInputs.cache
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\Magazine.Persistance.AssemblyInfo.cs
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\Magazine.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\Magazine.Persistance.sourcelink.json
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\Magazine.07D2FA39.Up2Date
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\Magazine.Persistance.dll
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\refint\Magazine.Persistance.dll
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\Magazine.Persistance.pdb
+C:\Users\Александр\Source\Repos\Ven1c\Magazine\Magazine.Persistance\obj\Debug\net6.0\ref\Magazine.Persistance.dll

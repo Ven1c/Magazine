@@ -1963,9 +1963,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
+      "projectUniqueName": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
       "projectName": "Magazine.Persistance",
-      "projectPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
+      "projectPath": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Persistance\\obj\\",
       "projectStyle": "PackageReference",
@@ -1985,8 +1985,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj": {
-              "projectPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj"
+            "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj": {
+              "projectPath": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\Magazine.Domain\\Magazine.Domain.csproj"
             }
           }
         }

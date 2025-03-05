@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UKZ3X7HJgSY=",
+  "dgSpecHash": "ENfPQ+9WPss=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
+  "projectFilePath": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Александр\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Александр\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
