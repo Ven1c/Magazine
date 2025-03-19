@@ -57,7 +57,7 @@ namespace Magazine.Persistance
        public Product Search(string name)
         {
             var entity = _MagazineDbContext.Product_
-               .Find(new object[] { name });
+               .SingleOrDefault( prod =>prod.Name == name);
             return entity;
         }
     }

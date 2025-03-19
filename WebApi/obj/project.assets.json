@@ -2199,7 +2199,7 @@
       "projectName": "WebApi",
       "projectPath": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\WebApi\\obj\\",
+      "outputPath": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2268,5 +2268,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

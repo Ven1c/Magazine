@@ -78,7 +78,7 @@
         "projectName": "Magazine.Persistance",
         "projectPath": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\Magazine.Persistance\\Magazine.Persistance.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\Magazine.Persistance\\obj\\",
+        "outputPath": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\Magazine.Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -149,7 +149,7 @@
         "projectName": "WebApi",
         "projectPath": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Александр\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Александр\\source\\repos\\Ven1c\\Magazine\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Александр\\Source\\Repos\\Ven1c\\Magazine\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Александр\\AppData\\Roaming\\NuGet\\NuGet.Config",

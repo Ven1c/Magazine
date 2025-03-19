@@ -25,10 +25,12 @@ namespace WebApi.Controllers
             return Ok(prod);
         }
 
-        [HttpPost("delete")]
-        public async Task<ActionResult<Product>> Remove([FromBody] Product product)
+        [HttpPost("delete/{name}")]
+        public async Task<ActionResult<Product>> Remove([FromRoute] string name)
         {
-            var prod = _productService.Remove(product);
+
+            var prod = _productService.Search(name);
+            var pr = _productService.Remove(prod);
             return Ok(prod);
 
         }
@@ -39,7 +41,7 @@ namespace WebApi.Controllers
             return Ok(prod);
 
         }
-        [HttpGet]
+        [HttpGet("search/{name}")]
         public async Task<ActionResult<Product>> Search([FromRoute] string name)
         {
             var prod = _productService.Search(name);
