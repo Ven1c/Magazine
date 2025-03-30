@@ -9,10 +9,12 @@ namespace Magazine.Domain.Services
 {
     public interface IProductService
     {
-
+       
         public Product Add(AddCommand addCommand);
         public Product Remove(Product remuvble);
         public Product Edit(Product product);
         public Product Search(string name);
+        public List<Product> InitFromFile();
+        public void WriteToFile(List<Product> products);
     }
 }

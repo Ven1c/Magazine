@@ -1,5 +1,6 @@
 ﻿namespace Magazine.Domain
 {
+    [Serializable]
     public class Product
     {
         public Guid id { get; set; }

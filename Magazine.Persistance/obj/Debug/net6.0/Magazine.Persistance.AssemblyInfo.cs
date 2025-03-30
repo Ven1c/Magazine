@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Magazine.Persistance")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95186011bc2dab32dc2c67974156d98e190fbd92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d877a8dc2ed4139d335de353f6ca9722c0d116ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("Magazine.Persistance")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Magazine.Persistance")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

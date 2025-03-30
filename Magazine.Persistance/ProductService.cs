@@ -10,15 +10,22 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using System.Threading;
+using Microsoft.Extensions.Configuration;
+using System.Xml.Serialization;
 
 namespace Magazine.Persistance
 {
-    
-    public class ProductService:IProductService
+
+    public class ProductService : IProductService
     {
+        private readonly IConfiguration _configuration;
         private readonly IMagazineDbContext _MagazineDbContext;
-        public ProductService(IMagazineDbContext context)=>
-            _MagazineDbContext = context;
+        public List<Product> data;
+        public ProductService(IMagazineDbContext context, IConfiguration conf) { 
+        _MagazineDbContext = context;
+        _configuration = conf;
+            data = InitFromFile();
+        }
         
         public Product Add(AddCommand addCommand)
         {
@@ -32,6 +39,8 @@ namespace Magazine.Persistance
             };
            _MagazineDbContext.Product_.Add(prod);
             _MagazineDbContext.SaveChanges();
+            data.Add(prod);
+            WriteToFile(data);
             return prod;
         }
        public Product Remove(Product remuvble)
@@ -40,6 +49,8 @@ namespace Magazine.Persistance
                 .Find(new object[] { remuvble.id });
             _MagazineDbContext.Product_.Remove(entity);
             _MagazineDbContext.SaveChanges();
+            data.Remove(entity);
+            WriteToFile(data);
             return entity;
         }
        public Product Edit(Product editble)
@@ -51,7 +62,9 @@ namespace Magazine.Persistance
             entity.Price = editble.Price;
             entity.ImageSrc = editble.ImageSrc;
             _MagazineDbContext.SaveChanges();
-
+            data.Remove(editble);
+            data.Add(entity);
+            WriteToFile(data);
             return entity;
         }
        public Product Search(string name)
@@ -59,6 +72,25 @@ namespace Magazine.Persistance
             var entity = _MagazineDbContext.Product_
                .SingleOrDefault( prod =>prod.Name == name);
             return entity;
+        }
+        public List<Product> InitFromFile()
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
+            string conn = _configuration["DataBaseFilePath"];
+            using (StreamReader reader = new StreamReader(conn))
+            {
+                return (List<Product>)serializer.Deserialize(reader);
+            }
+            
+        }
+        public void WriteToFile(List<Product> products)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
+            string conn = _configuration["DataBaseFilePath"];
+            using (StreamWriter writer = new StreamWriter(conn))
+            {
+                serializer.Serialize(writer, products);
+            }
         }
     }
 }
